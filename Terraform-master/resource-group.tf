@@ -8,6 +8,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "cloudcommons" {
-  name     = "SampleRG"
-  location = "eastus"
+  name     = var.name
+  location = var.location
 }
