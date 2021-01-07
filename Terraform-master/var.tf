@@ -14,5 +14,5 @@ variable "location" {
 variable "resource_group_name" {
   description = "Default resource group name that the network will be created in."
   type        = list
-  default     = ["samplerg1","samplerg2"]
+  default     = ["SampleRG","samplerg2"]
 }
