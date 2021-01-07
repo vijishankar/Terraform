@@ -1,9 +1,9 @@
 
-# variable "name" {
-#  type        = string
-#  description = "(Required) The name of the resource group. Must be unique on your Azure subscription"
-#  default= "sampleRG"
-#}
+ variable "name" {
+  type        = string
+ description = "(Required) The name of the resource group. Must be unique on your Azure subscription"
+  default= "sampleRG"
+}
 
 variable "location" {
   type        = string
@@ -11,8 +11,8 @@ variable "location" {
   default= "eastus"
 }
 
-variable "resource_group_name" {
-  description = "Default resource group name that the network will be created in."
-  type        = list
-  default     = ["SampleRG","samplerg2"]
-}
+#variable "resource_group_name" {
+ # description = "Default resource group name that the network will be created in."
+ # type        = list
+#  default     = ["SampleRG","samplerg2"]
+#}
