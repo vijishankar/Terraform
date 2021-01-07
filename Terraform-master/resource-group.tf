@@ -20,7 +20,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "tf-test"
-  location = "West Europe"
+  location = "eastus"
 }
 
 #resource "azurerm_application_insights" "example" {
